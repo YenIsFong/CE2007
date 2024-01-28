@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Lab5_UARTComms/Lab5_UARTmain-NTULearn.c&apos; to &apos;Lab5_LineTracingObstacleDetection.c&apos;" description="Rename resource &apos;Lab5_UARTmain-NTULearn.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Lab5_UARTmain-NTULearn.c" name="Lab5_LineTracingObstacleDetection.c" stamp="1666774883720" updateReferences="true"/>
+</session>

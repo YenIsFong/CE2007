@@ -1,0 +1,1347 @@
+!SESSION 2022-10-26 13:10:42.674 -----------------------------------------------
+eclipse.buildId=4.6.0.I20160606-1100
+java.version=1.8.0_112
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_SG
+Framework arguments:  -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ti.ccstudio.branding.product
+
+This is a continuation of log file D:\MicroProccessor\CE2007\.metadata\.bak_0.log
+Created Time: 2022-10-26 13:20:50.298
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-26 13:20:50.298
+!MESSAGE DS_ERROR: CORTEX_M4_0: JTAG Communication Error: (Error -261 @ 0x0) Invalid response was received from the XDS110. (Emulation package 7.0.100.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-26 13:20:50.387
+!MESSAGE DS_ERROR: CORTEX_M4_0: Failed to remove the debug state from the target before disconnecting.  There may still be breakpoint op-codes embedded in program memory.  It is recommended that you reset the emulator before you connect and reload your program before you continue debugging
+
+
+!ENTRY org.eclipse.core.resources 2 566 2022-10-26 13:21:47.812
+!MESSAGE null parent found while collapsing trees
+!SESSION 2022-10-26 13:27:00.346 -----------------------------------------------
+eclipse.buildId=4.6.0.I20160606-1100
+java.version=1.8.0_112
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_SG
+Framework arguments:  -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ti.ccstudio.branding.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2022-10-26 13:28:23.276
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.ti.common.core 4 0 2022-10-26 13:28:23.995
+!MESSAGE path=ccs_base/DebugServer
+
+!ENTRY com.ti.common.core 4 0 2022-10-26 13:28:23.995
+!MESSAGE debugServerDir=C:/ti/ccsv7/ccs_base/DebugServer
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2022-10-26 13:29:15.113
+!MESSAGE No repository found at file:/K:/softwares/CCS7.4.0.00015_win32/CCS7.4.0.00015_win32/baserepo/browserRepo.
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2022-10-26 13:29:23.301
+!MESSAGE Connection to http://support.spectrumdigital.com/ccs51/Updates/p2.index failed on support.spectrumdigital.com. Retry attempt 0 started
+!STACK 0
+java.net.UnknownHostException: support.spectrumdigital.com
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:928)
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1323)
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1276)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:44)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:259)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:159)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:131)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:611)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:446)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1084)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1075)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1071)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1006 2022-10-26 13:29:23.520
+!MESSAGE Unknown Host: http://support.spectrumdigital.com/ccs51/Updates/content.xml
+!STACK 0
+java.net.UnknownHostException: support.spectrumdigital.com
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:44)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:259)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:159)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:304)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:611)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:446)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.ti.ccstudio.errorparser 4 0 2022-10-26 13:29:44.192
+!MESSAGE An internal error was logged by 'com.ti.ccstudio.errorparser'.
+!STACK 0
+org.jsoup.HttpStatusException: HTTP error fetching URL. Status=410, URL=https://processors.wiki.ti.com/index.php/Compiler/diagnostic_messages/
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:590)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:587)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:540)
+	at org.jsoup.helper.HttpConnection.execute(HttpConnection.java:227)
+	at org.jsoup.helper.HttpConnection.get(HttpConnection.java:216)
+	at com.ti.ccstudio.errorparser.parsers.PatternProvider$PatternData.fillup(PatternProvider.java:261)
+	at com.ti.ccstudio.errorparser.parsers.PatternProvider$PatternData.findMatch(PatternProvider.java:145)
+	at com.ti.ccstudio.errorparser.parsers.PatternProvider.getEmdUrl(PatternProvider.java:465)
+	at com.ti.ccstudio.errorparser.parsers.ErrorPattern.recordError(ErrorPattern.java:77)
+	at com.ti.ccstudio.errorparser.parsers.CoffErrorParser.processPendingMesg(CoffErrorParser.java:259)
+	at com.ti.ccstudio.errorparser.parsers.CoffErrorParser.doProcessLine(CoffErrorParser.java:111)
+	at com.ti.ccstudio.errorparser.parsers.BaseErrorParser.processLine(BaseErrorParser.java:307)
+	at org.eclipse.cdt.core.ErrorParserManager.processLine(ErrorParserManager.java:354)
+	at org.eclipse.cdt.core.ErrorParserManager.checkLine(ErrorParserManager.java:688)
+	at org.eclipse.cdt.core.ErrorParserManager.write(ErrorParserManager.java:672)
+	at org.eclipse.cdt.internal.core.StreamProgressMonitor.write(StreamProgressMonitor.java:101)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at com.ti.ccstudio.project.core.internal.build.temp.ProcessClosure$SynchronizedOutputStream.flushBufferedErrors(ProcessClosure.java:261)
+	at com.ti.ccstudio.project.core.internal.build.temp.ProcessClosure$SynchronizedOutputStream.write(ProcessClosure.java:196)
+	at com.ti.ccstudio.project.core.internal.build.temp.ProcessClosure$ReaderThread.run(ProcessClosure.java:88)
+
+!ENTRY org.eclipse.jface 2 0 2022-10-26 13:30:30.465
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-10-26 13:30:30.465
+!MESSAGE A conflict occurred for ALT+E:
+Binding(ALT+E,
+	ParameterizedCommand(Command(org.eclipse.tm.terminal.command1,Terminal view insert,
+		,
+		Category(org.eclipse.tm.terminal.category1,Terminal view commands,Terminal view commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@b60a9c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.tm.terminal.TerminalContext,,,system)
+Binding(ALT+E,
+	ParameterizedCommand(Command(com.ti.ccstudio.debug.ui.command.restoreDebugState,Restore Debug State,
+		Restore debug state for the selected core(s),
+		Category(com.ti.ccstudio.debug.ui.commandCategory,Code Composer Studio Debug Commands,Set of commands for Code Composer Studio debug actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@a074ed,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.debug.ui.debugging,,,system)
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-26 13:32:58.479
+!MESSAGE DS_ERROR: CORTEX_M4_0: JTAG Communication Error: (Error -261 @ 0x0) Invalid response was received from the XDS110. (Emulation package 7.0.100.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-26 13:32:58.531
+!MESSAGE DS_ERROR: CORTEX_M4_0: Failed to remove the debug state from the target before disconnecting.  There may still be breakpoint op-codes embedded in program memory.  It is recommended that you reset the emulator before you connect and reload your program before you continue debugging
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-26 13:46:03.159
+!MESSAGE DS_ERROR: CORTEX_M4_0: GEL: Encountered a problem loading file: D:\MicroProccessor\CE2007\Lab5_UARTComms\Debug\Lab5_UARTComms.out Could not open file
+
+
+!ENTRY org.eclipse.core.resources 2 566 2022-10-26 13:46:43.757
+!MESSAGE null parent found while collapsing trees
+
+!ENTRY org.eclipse.core.resources 2 566 2022-10-26 13:51:45.352
+!MESSAGE null parent found while collapsing trees
+
+!ENTRY org.eclipse.core.resources 2 566 2022-10-26 14:04:59.322
+!MESSAGE null parent found while collapsing trees
+
+!ENTRY org.eclipse.core.resources 2 566 2022-10-26 14:10:49.033
+!MESSAGE null parent found while collapsing trees
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-26 14:20:44.715
+!MESSAGE DS_ERROR: CORTEX_M4_0: GEL: Encountered a problem loading file: D:\MicroProccessor\CE2007\Lab5_UARTComms\Debug\Lab5_UARTComms.out Could not open file
+
+
+!ENTRY org.eclipse.core.resources 2 566 2022-10-26 14:25:36.286
+!MESSAGE null parent found while collapsing trees
+
+!ENTRY org.eclipse.core.resources 2 566 2022-10-26 14:32:19.629
+!MESSAGE null parent found while collapsing trees
+
+!ENTRY org.eclipse.core.resources 2 566 2022-10-26 14:47:56.597
+!MESSAGE null parent found while collapsing trees
+
+!ENTRY org.eclipse.cdt.core 4 0 2022-10-26 14:48:12.615
+!MESSAGE Error: Not ELF format
+!STACK 0
+java.io.IOException: Not ELF format
+	at org.eclipse.cdt.utils.elf.Elf$ELFhdr.<init>(Elf.java:188)
+	at org.eclipse.cdt.utils.elf.Elf.commonSetup(Elf.java:666)
+	at org.eclipse.cdt.utils.elf.Elf.<init>(Elf.java:684)
+	at org.eclipse.cdt.utils.elf.Elf.getAttributes(Elf.java:929)
+	at org.eclipse.cdt.utils.elf.parser.ElfParser.getBinary(ElfParser.java:60)
+	at org.eclipse.cdt.utils.elf.parser.ElfParser.getBinary(ElfParser.java:34)
+	at org.eclipse.cdt.debug.ui.importexecutable.ImportExecutablePageOne.isBinary(ImportExecutablePageOne.java:625)
+	at org.eclipse.cdt.debug.ui.importexecutable.ImportExecutablePageOne.isBinary(ImportExecutablePageOne.java:661)
+	at org.eclipse.cdt.debug.ui.importexecutable.ImportExecutablePageOne.validateExe(ImportExecutablePageOne.java:680)
+	at org.eclipse.cdt.debug.ui.importexecutable.ImportExecutablePageOne.access$11(ImportExecutablePageOne.java:674)
+	at org.eclipse.cdt.debug.ui.importexecutable.ImportExecutablePageOne$12.modifyText(ImportExecutablePageOne.java:460)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:180)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4410)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1103)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1084)
+	at org.eclipse.swt.widgets.Text.wmCommandChild(Text.java:3117)
+	at org.eclipse.swt.widgets.Control.WM_COMMAND(Control.java:4939)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4794)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5102)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(OS.java:2446)
+	at org.eclipse.swt.widgets.Text.callWindowProc(Text.java:262)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4889)
+	at org.eclipse.swt.widgets.Text.windowProc(Text.java:2704)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5102)
+	at org.eclipse.swt.internal.win32.OS.SetWindowTextW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.SetWindowText(OS.java:3476)
+	at org.eclipse.swt.widgets.Text.setText(Text.java:2323)
+	at org.eclipse.cdt.debug.ui.importexecutable.ImportExecutablePageOne$13.widgetSelected(ImportExecutablePageOne.java:486)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:249)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4410)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4228)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3816)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:818)
+	at org.eclipse.jface.window.Window.open(Window.java:794)
+	at org.eclipse.ui.internal.handlers.WizardHandler$Import.executeHandler(WizardHandler.java:158)
+	at org.eclipse.ui.internal.handlers.WizardHandler.execute(WizardHandler.java:290)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:295)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:90)
+	at sun.reflect.GeneratedMethodAccessor118.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:54)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:282)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:264)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:132)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:152)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:494)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:488)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:210)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerService.executeCommand(LegacyHandlerService.java:353)
+	at org.eclipse.ui.internal.actions.CommandAction.runWithEvent(CommandAction.java:155)
+	at org.eclipse.ui.internal.actions.CommandAction.run(CommandAction.java:165)
+	at org.eclipse.ui.actions.ImportResourcesAction.run(ImportResourcesAction.java:99)
+	at org.eclipse.ui.actions.BaseSelectionListenerAction.runWithEvent(BaseSelectionListenerAction.java:167)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:565)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:397)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4410)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4228)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3816)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1121)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:150)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:687)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:604)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:138)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+
+!ENTRY org.eclipse.cdt.core 4 0 2022-10-26 14:48:12.630
+!MESSAGE Error: Not ELF format
+!STACK 0
+java.io.IOException: Not ELF format
+	at org.eclipse.cdt.utils.elf.Elf$ELFhdr.<init>(Elf.java:188)
+	at org.eclipse.cdt.utils.elf.Elf.commonSetup(Elf.java:666)
+	at org.eclipse.cdt.utils.elf.Elf.<init>(Elf.java:684)
+	at org.eclipse.cdt.utils.elf.Elf.getAttributes(Elf.java:929)
+	at org.eclipse.cdt.utils.elf.parser.ElfParser.getBinary(ElfParser.java:60)
+	at org.eclipse.cdt.utils.elf.parser.ElfParser.getBinary(ElfParser.java:34)
+	at org.eclipse.cdt.debug.ui.importexecutable.ImportExecutablePageOne.isBinary(ImportExecutablePageOne.java:625)
+	at org.eclipse.cdt.debug.ui.importexecutable.ImportExecutablePageOne.isBinary(ImportExecutablePageOne.java:661)
+	at org.eclipse.cdt.debug.ui.importexecutable.ImportExecutablePageOne.validateExe(ImportExecutablePageOne.java:680)
+	at org.eclipse.cdt.debug.ui.importexecutable.ImportExecutablePageOne.access$11(ImportExecutablePageOne.java:674)
+	at org.eclipse.cdt.debug.ui.importexecutable.ImportExecutablePageOne$12.modifyText(ImportExecutablePageOne.java:460)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:180)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4410)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1103)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1084)
+	at org.eclipse.swt.widgets.Text.wmCommandChild(Text.java:3117)
+	at org.eclipse.swt.widgets.Control.WM_COMMAND(Control.java:4939)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4794)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5102)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(OS.java:2446)
+	at org.eclipse.swt.widgets.Text.callWindowProc(Text.java:262)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4889)
+	at org.eclipse.swt.widgets.Text.windowProc(Text.java:2704)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5102)
+	at org.eclipse.swt.internal.win32.OS.SetWindowTextW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.SetWindowText(OS.java:3476)
+	at org.eclipse.swt.widgets.Text.setText(Text.java:2323)
+	at org.eclipse.cdt.debug.ui.importexecutable.ImportExecutablePageOne$13.widgetSelected(ImportExecutablePageOne.java:486)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:249)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4410)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4228)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3816)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:818)
+	at org.eclipse.jface.window.Window.open(Window.java:794)
+	at org.eclipse.ui.internal.handlers.WizardHandler$Import.executeHandler(WizardHandler.java:158)
+	at org.eclipse.ui.internal.handlers.WizardHandler.execute(WizardHandler.java:290)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:295)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:90)
+	at sun.reflect.GeneratedMethodAccessor118.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:54)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:282)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:264)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:132)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:152)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:494)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:488)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:210)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerService.executeCommand(LegacyHandlerService.java:353)
+	at org.eclipse.ui.internal.actions.CommandAction.runWithEvent(CommandAction.java:155)
+	at org.eclipse.ui.internal.actions.CommandAction.run(CommandAction.java:165)
+	at org.eclipse.ui.actions.ImportResourcesAction.run(ImportResourcesAction.java:99)
+	at org.eclipse.ui.actions.BaseSelectionListenerAction.runWithEvent(BaseSelectionListenerAction.java:167)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:565)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:397)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4410)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4228)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3816)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1121)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:150)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:687)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:604)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:138)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+
+!ENTRY org.eclipse.core.resources 2 566 2022-10-26 14:53:57.463
+!MESSAGE null parent found while collapsing trees
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-26 14:54:31.155
+!MESSAGE DS_ERROR: CORTEX_M4_0: GEL: Encountered a problem loading file: D:\MicroProccessor\CE2007\Lab5_UARTComms\Debug\Lab5_UARTComms.out Could not open file
+
+
+!ENTRY org.eclipse.core.resources 2 566 2022-10-26 14:59:26.924
+!MESSAGE null parent found while collapsing trees
+
+!ENTRY org.eclipse.core.resources 2 566 2022-10-26 15:04:48.114
+!MESSAGE null parent found while collapsing trees
+
+!ENTRY org.eclipse.core.resources 2 566 2022-10-26 15:10:19.128
+!MESSAGE null parent found while collapsing trees
+
+!ENTRY org.eclipse.core.resources 2 566 2022-10-26 15:15:23.220
+!MESSAGE null parent found while collapsing trees
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-26 15:17:39.267
+!MESSAGE DS_ERROR: CORTEX_M4_0: GEL: Encountered a problem loading file: D:\MicroProccessor\CE2007\Lab5_UARTComms\Debug\Lab5_UARTComms.out Could not open file
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-26 15:18:21.554
+!MESSAGE DS_ERROR: CORTEX_M4_0: JTAG Communication Error: (Error -261 @ 0x0) Invalid response was received from the XDS110. (Emulation package 7.0.100.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-26 15:18:21.600
+!MESSAGE DS_ERROR: CORTEX_M4_0: Failed to remove the debug state from the target before disconnecting.  There may still be breakpoint op-codes embedded in program memory.  It is recommended that you reset the emulator before you connect and reload your program before you continue debugging
+
+
+!ENTRY org.eclipse.core.resources 2 566 2022-10-26 15:21:44.302
+!MESSAGE null parent found while collapsing trees
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-26 15:24:20.864
+!MESSAGE DS_ERROR: CS_DAP_0: Error: (Error -261 @ 0x0) Invalid response was received from the XDS110. (Emulation package 7.0.100.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-26 15:24:20.927
+!MESSAGE DS_ERROR: CS_DAP_0: Error: (Error -122 @ 0x0) A bad parameter value was detected within a function. It is likely a problem with `SC_ARGS' in SMG_call(). (Emulation package 7.0.100.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-26 15:24:21.099
+!MESSAGE DS_ERROR: CS_DAP_0: Unable to determine target status after 20 attempts
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-26 15:24:21.120
+!MESSAGE DS_ERROR: CS_DAP_0: Failed to remove the debug state from the target before disconnecting.  There may still be breakpoint op-codes embedded in program memory.  It is recommended that you reset the emulator before you connect and reload your program before you continue debugging
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-26 15:24:21.327
+!MESSAGE DS_ERROR: CORTEX_M4_0: JTAG Communication Error: (Error -261 @ 0x0) Invalid response was received from the XDS110. (Emulation package 7.0.100.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-26 15:24:21.370
+!MESSAGE DS_ERROR: CORTEX_M4_0: Failed to remove the debug state from the target before disconnecting.  There may still be breakpoint op-codes embedded in program memory.  It is recommended that you reset the emulator before you connect and reload your program before you continue debugging
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-26 15:26:12.507
+!MESSAGE DS_ERROR: CORTEX_M4_0: JTAG Communication Error: (Error -261 @ 0x0) Invalid response was received from the XDS110. (Emulation package 7.0.100.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-26 15:26:12.562
+!MESSAGE DS_ERROR: CORTEX_M4_0: Failed to remove the debug state from the target before disconnecting.  There may still be breakpoint op-codes embedded in program memory.  It is recommended that you reset the emulator before you connect and reload your program before you continue debugging
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-26 15:28:56.459
+!MESSAGE DS_ERROR: CORTEX_M4_0: JTAG Communication Error: (Error -261 @ 0x0) Invalid response was received from the XDS110. (Emulation package 7.0.100.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-26 15:28:56.515
+!MESSAGE DS_ERROR: CORTEX_M4_0: Failed to remove the debug state from the target before disconnecting.  There may still be breakpoint op-codes embedded in program memory.  It is recommended that you reset the emulator before you connect and reload your program before you continue debugging
+
+
+!ENTRY org.eclipse.core.resources 2 566 2022-10-26 15:29:01.073
+!MESSAGE null parent found while collapsing trees
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-26 15:30:11.031
+!MESSAGE DS_ERROR: CORTEX_M4_0: JTAG Communication Error: (Error -261 @ 0x0) Invalid response was received from the XDS110. (Emulation package 7.0.100.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-26 15:30:11.091
+!MESSAGE DS_ERROR: CORTEX_M4_0: Failed to remove the debug state from the target before disconnecting.  There may still be breakpoint op-codes embedded in program memory.  It is recommended that you reset the emulator before you connect and reload your program before you continue debugging
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-26 15:33:42.204
+!MESSAGE DS_ERROR: CORTEX_M4_0: JTAG Communication Error: (Error -261 @ 0x0) Invalid response was received from the XDS110. (Emulation package 7.0.100.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-26 15:33:42.250
+!MESSAGE DS_ERROR: CORTEX_M4_0: Failed to remove the debug state from the target before disconnecting.  There may still be breakpoint op-codes embedded in program memory.  It is recommended that you reset the emulator before you connect and reload your program before you continue debugging
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-26 15:34:53.366
+!MESSAGE DS_ERROR: CS_DAP_0: Error connecting to the target: (Error -260 @ 0x0) An attempt to connect to the XDS110 failed. The cause may be one or more of: no XDS110 is connected, invalid firmware update, invalid XDS110 serial number, or faulty USB cable. The firmware and serial number may be updated using the xdsdfu utility found in the .../ccs_base/common/uscif/xds110 directory of your installation. View the ReadMe.txt file there for instructions. (Emulation package 7.0.100.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-26 15:34:53.513
+!MESSAGE DS_ERROR: Error connecting to the target:
+(Error -260 @ 0x0)
+An attempt to connect to the XDS110 failed.
+The cause may be one or more of: no XDS110 is connected, invalid
+firmware update, invalid XDS110 serial number, or faulty USB
+cable. The firmware and serial number may be updated using the
+xdsdfu utility found in the .../ccs_base/common/uscif/xds110
+directory of your installation. View the ReadMe.txt file there
+for instructions.
+(Emulation package 7.0.100.0)
+
+
+!ENTRY org.eclipse.core.resources 2 566 2022-10-26 15:34:56.909
+!MESSAGE null parent found while collapsing trees
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-26 15:35:20.976
+!MESSAGE DS_ERROR: CORTEX_M4_0: JTAG Communication Error: (Error -261 @ 0x0) Invalid response was received from the XDS110. (Emulation package 7.0.100.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-26 15:35:21.031
+!MESSAGE DS_ERROR: CORTEX_M4_0: Failed to remove the debug state from the target before disconnecting.  There may still be breakpoint op-codes embedded in program memory.  It is recommended that you reset the emulator before you connect and reload your program before you continue debugging
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-26 15:36:29.921
+!MESSAGE DS_ERROR: CORTEX_M4_0: JTAG Communication Error: (Error -261 @ 0x0) Invalid response was received from the XDS110. (Emulation package 7.0.100.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-26 15:36:29.976
+!MESSAGE DS_ERROR: CORTEX_M4_0: Failed to remove the debug state from the target before disconnecting.  There may still be breakpoint op-codes embedded in program memory.  It is recommended that you reset the emulator before you connect and reload your program before you continue debugging
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-26 15:38:34.606
+!MESSAGE DS_ERROR: CORTEX_M4_0: JTAG Communication Error: (Error -261 @ 0x0) Invalid response was received from the XDS110. (Emulation package 7.0.100.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-26 15:38:34.662
+!MESSAGE DS_ERROR: CORTEX_M4_0: Failed to remove the debug state from the target before disconnecting.  There may still be breakpoint op-codes embedded in program memory.  It is recommended that you reset the emulator before you connect and reload your program before you continue debugging
+
+
+!ENTRY org.eclipse.core.resources 2 566 2022-10-26 15:40:08.123
+!MESSAGE null parent found while collapsing trees
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-26 15:45:08.356
+!MESSAGE DS_ERROR: CS_DAP_0: Error: (Error -261 @ 0x0) Invalid response was received from the XDS110. (Emulation package 7.0.100.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-26 15:45:08.389
+!MESSAGE DS_ERROR: CS_DAP_0: Error: (Error -122 @ 0x0) A bad parameter value was detected within a function. It is likely a problem with `SC_ARGS' in SMG_call(). (Emulation package 7.0.100.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-26 15:45:08.430
+!MESSAGE DS_ERROR: CORTEX_M4_0: JTAG Communication Error: (Error -261 @ 0x0) Invalid response was received from the XDS110. (Emulation package 7.0.100.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-26 15:45:08.476
+!MESSAGE DS_ERROR: CORTEX_M4_0: Failed to remove the debug state from the target before disconnecting.  There may still be breakpoint op-codes embedded in program memory.  It is recommended that you reset the emulator before you connect and reload your program before you continue debugging
+
+
+!ENTRY org.eclipse.core.resources 2 566 2022-10-26 15:45:30.818
+!MESSAGE null parent found while collapsing trees
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-26 15:52:55.054
+!MESSAGE DS_ERROR: CS_DAP_0: Error: (Error -261 @ 0x0) Invalid response was received from the XDS110. (Emulation package 7.0.100.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-26 15:52:55.086
+!MESSAGE DS_ERROR: CS_DAP_0: Error: (Error -122 @ 0x0) A bad parameter value was detected within a function. It is likely a problem with `SC_ARGS' in SMG_call(). (Emulation package 7.0.100.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-26 15:52:55.203
+!MESSAGE DS_ERROR: CORTEX_M4_0: JTAG Communication Error: (Error -261 @ 0x0) Invalid response was received from the XDS110. (Emulation package 7.0.100.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-26 15:52:55.247
+!MESSAGE DS_ERROR: CORTEX_M4_0: Failed to remove the debug state from the target before disconnecting.  There may still be breakpoint op-codes embedded in program memory.  It is recommended that you reset the emulator before you connect and reload your program before you continue debugging
+
+
+!ENTRY org.eclipse.core.resources 2 566 2022-10-26 15:53:10.265
+!MESSAGE null parent found while collapsing trees
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-26 15:56:44.166
+!MESSAGE DS_ERROR: CORTEX_M4_0: JTAG Communication Error: (Error -261 @ 0x0) Invalid response was received from the XDS110. (Emulation package 7.0.100.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-26 15:56:44.243
+!MESSAGE DS_ERROR: CORTEX_M4_0: Failed to remove the debug state from the target before disconnecting.  There may still be breakpoint op-codes embedded in program memory.  It is recommended that you reset the emulator before you connect and reload your program before you continue debugging
+
+
+!ENTRY org.eclipse.core.resources 2 566 2022-10-26 16:01:34.294
+!MESSAGE null parent found while collapsing trees
+
+!ENTRY org.eclipse.core.resources 2 566 2022-10-26 16:22:57.348
+!MESSAGE null parent found while collapsing trees
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-26 16:27:27.410
+!MESSAGE DS_ERROR: CORTEX_M4_0: JTAG Communication Error: (Error -261 @ 0x0) Invalid response was received from the XDS110. (Emulation package 7.0.100.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-26 16:27:27.492
+!MESSAGE DS_ERROR: CORTEX_M4_0: Failed to remove the debug state from the target before disconnecting.  There may still be breakpoint op-codes embedded in program memory.  It is recommended that you reset the emulator before you connect and reload your program before you continue debugging
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-26 16:30:15.350
+!MESSAGE DS_ERROR: CORTEX_M4_0: JTAG Communication Error: (Error -261 @ 0x0) Invalid response was received from the XDS110. (Emulation package 7.0.100.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-26 16:30:15.395
+!MESSAGE DS_ERROR: CORTEX_M4_0: Failed to remove the debug state from the target before disconnecting.  There may still be breakpoint op-codes embedded in program memory.  It is recommended that you reset the emulator before you connect and reload your program before you continue debugging
+
+
+!ENTRY org.eclipse.core.resources 2 566 2022-10-26 16:32:06.495
+!MESSAGE null parent found while collapsing trees
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-26 16:34:09.493
+!MESSAGE DS_ERROR: CORTEX_M4_0: JTAG Communication Error: (Error -261 @ 0x0) Invalid response was received from the XDS110. (Emulation package 7.0.100.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-26 16:34:09.563
+!MESSAGE DS_ERROR: CORTEX_M4_0: Failed to remove the debug state from the target before disconnecting.  There may still be breakpoint op-codes embedded in program memory.  It is recommended that you reset the emulator before you connect and reload your program before you continue debugging
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-26 16:34:49.423
+!MESSAGE DS_ERROR: CS_DAP_0: Error: (Error -261 @ 0x0) Invalid response was received from the XDS110. (Emulation package 7.0.100.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-26 16:34:49.461
+!MESSAGE DS_ERROR: CS_DAP_0: Error: (Error -122 @ 0x0) A bad parameter value was detected within a function. It is likely a problem with `SC_ARGS' in SMG_call(). (Emulation package 7.0.100.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-26 16:34:49.538
+!MESSAGE DS_ERROR: CORTEX_M4_0: JTAG Communication Error: (Error -261 @ 0x0) Invalid response was received from the XDS110. (Emulation package 7.0.100.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-26 16:34:49.585
+!MESSAGE DS_ERROR: CORTEX_M4_0: Failed to remove the debug state from the target before disconnecting.  There may still be breakpoint op-codes embedded in program memory.  It is recommended that you reset the emulator before you connect and reload your program before you continue debugging
+
+
+!ENTRY org.eclipse.core.resources 2 566 2022-10-26 16:38:48.044
+!MESSAGE null parent found while collapsing trees
+
+!ENTRY org.eclipse.core.resources 2 566 2022-10-26 16:44:51.273
+!MESSAGE null parent found while collapsing trees
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-26 17:01:34.033
+!MESSAGE DS_ERROR: CS_DAP_0: Error connecting to the target: (Error -260 @ 0x0) An attempt to connect to the XDS110 failed. The cause may be one or more of: no XDS110 is connected, invalid firmware update, invalid XDS110 serial number, or faulty USB cable. The firmware and serial number may be updated using the xdsdfu utility found in the .../ccs_base/common/uscif/xds110 directory of your installation. View the ReadMe.txt file there for instructions. (Emulation package 7.0.100.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-26 17:01:34.174
+!MESSAGE DS_ERROR: Error connecting to the target:
+(Error -260 @ 0x0)
+An attempt to connect to the XDS110 failed.
+The cause may be one or more of: no XDS110 is connected, invalid
+firmware update, invalid XDS110 serial number, or faulty USB
+cable. The firmware and serial number may be updated using the
+xdsdfu utility found in the .../ccs_base/common/uscif/xds110
+directory of your installation. View the ReadMe.txt file there
+for instructions.
+(Emulation package 7.0.100.0)
+
+
+!ENTRY org.eclipse.core.resources 2 566 2022-10-26 17:05:58.423
+!MESSAGE null parent found while collapsing trees
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-26 17:07:43.436
+!MESSAGE DS_ERROR: CORTEX_M4_0: JTAG Communication Error: (Error -261 @ 0x0) Invalid response was received from the XDS110. (Emulation package 7.0.100.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-26 17:07:43.484
+!MESSAGE DS_ERROR: CORTEX_M4_0: Failed to remove the debug state from the target before disconnecting.  There may still be breakpoint op-codes embedded in program memory.  It is recommended that you reset the emulator before you connect and reload your program before you continue debugging
+
+
+!ENTRY org.eclipse.core.resources 2 566 2022-10-26 17:11:35.859
+!MESSAGE null parent found while collapsing trees
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-26 17:14:09.816
+!MESSAGE DS_ERROR: CORTEX_M4_0: JTAG Communication Error: (Error -261 @ 0x0) Invalid response was received from the XDS110. (Emulation package 7.0.100.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-26 17:14:09.898
+!MESSAGE DS_ERROR: CORTEX_M4_0: Failed to remove the debug state from the target before disconnecting.  There may still be breakpoint op-codes embedded in program memory.  It is recommended that you reset the emulator before you connect and reload your program before you continue debugging
+
+
+!ENTRY org.eclipse.ui.ide 4 4 2022-10-26 17:16:38.657
+!MESSAGE Problems saving workspace
+
+!ENTRY org.eclipse.ui.ide 4 1 2022-10-26 17:16:38.672
+!MESSAGE Problems occurred while trying to save the state of the workbench.
+!SUBENTRY 1 org.eclipse.core.resources 4 568 2022-10-26 17:16:38.672
+!MESSAGE Could not write workspace metadata 'D:/MicroProccessor/CE2007/.metadata/.plugins/org.eclipse.core.resources/.root/75.tree'.
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.core.internal.watson.ElementTreeWriter.sortTrees(ElementTreeWriter.java:125)
+	at org.eclipse.core.internal.watson.ElementTreeWriter.writeDeltaChain(ElementTreeWriter.java:195)
+	at org.eclipse.core.internal.resources.SaveManager.writeTree(SaveManager.java:2011)
+	at org.eclipse.core.internal.resources.SaveManager.saveTree(SaveManager.java:1411)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1190)
+	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2283)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$4.run(IDEWorkbenchAdvisor.java:456)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+
+!ENTRY org.eclipse.core.resources 2 566 2022-10-26 17:16:40.048
+!MESSAGE null parent found while collapsing trees
+
+!ENTRY org.eclipse.core.resources 2 10035 2022-10-26 17:16:40.079
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2022-10-27 10:21:41.042 -----------------------------------------------
+eclipse.buildId=4.6.0.I20160606-1100
+java.version=1.8.0_112
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_SG
+Framework arguments:  -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ti.ccstudio.branding.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2022-10-27 10:22:53.799
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.ti.common.core 4 0 2022-10-27 10:22:53.939
+!MESSAGE path=ccs_base/DebugServer
+
+!ENTRY com.ti.common.core 4 0 2022-10-27 10:22:53.955
+!MESSAGE debugServerDir=C:/ti/ccsv7/ccs_base/DebugServer
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2022-10-27 10:23:21.125
+!MESSAGE No repository found at file:/K:/softwares/CCS7.4.0.00015_win32/CCS7.4.0.00015_win32/baserepo/browserRepo.
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2022-10-27 10:23:25.610
+!MESSAGE Connection to http://support.spectrumdigital.com/ccs51/Updates/p2.index failed on support.spectrumdigital.com. Retry attempt 0 started
+!STACK 0
+java.net.UnknownHostException: support.spectrumdigital.com
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:928)
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1323)
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1276)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:44)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:259)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:159)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:131)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:611)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:446)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1084)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1075)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1071)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1006 2022-10-27 10:23:25.828
+!MESSAGE Unknown Host: http://support.spectrumdigital.com/ccs51/Updates/content.xml
+!STACK 0
+java.net.UnknownHostException: support.spectrumdigital.com
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:44)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:259)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:159)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:304)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:611)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:446)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.ti.ccstudio.errorparser 4 0 2022-10-27 10:23:29.782
+!MESSAGE An internal error was logged by 'com.ti.ccstudio.errorparser'.
+!STACK 0
+org.jsoup.HttpStatusException: HTTP error fetching URL. Status=410, URL=https://processors.wiki.ti.com/index.php/Compiler/diagnostic_messages/
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:590)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:587)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:540)
+	at org.jsoup.helper.HttpConnection.execute(HttpConnection.java:227)
+	at org.jsoup.helper.HttpConnection.get(HttpConnection.java:216)
+	at com.ti.ccstudio.errorparser.parsers.PatternProvider$PatternData.fillup(PatternProvider.java:261)
+	at com.ti.ccstudio.errorparser.parsers.PatternProvider$PatternData.findMatch(PatternProvider.java:145)
+	at com.ti.ccstudio.errorparser.parsers.PatternProvider.getEmdUrl(PatternProvider.java:465)
+	at com.ti.ccstudio.errorparser.parsers.ErrorPattern.recordError(ErrorPattern.java:77)
+	at com.ti.ccstudio.errorparser.parsers.CoffErrorParser.processPendingMesg(CoffErrorParser.java:259)
+	at com.ti.ccstudio.errorparser.parsers.CoffErrorParser.doProcessLine(CoffErrorParser.java:111)
+	at com.ti.ccstudio.errorparser.parsers.BaseErrorParser.processLine(BaseErrorParser.java:307)
+	at org.eclipse.cdt.core.ErrorParserManager.processLine(ErrorParserManager.java:354)
+	at org.eclipse.cdt.core.ErrorParserManager.checkLine(ErrorParserManager.java:688)
+	at org.eclipse.cdt.core.ErrorParserManager.write(ErrorParserManager.java:672)
+	at org.eclipse.cdt.internal.core.StreamProgressMonitor.write(StreamProgressMonitor.java:101)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at com.ti.ccstudio.project.core.internal.build.temp.ProcessClosure$SynchronizedOutputStream.flushBufferedErrors(ProcessClosure.java:261)
+	at com.ti.ccstudio.project.core.internal.build.temp.ProcessClosure$SynchronizedOutputStream.write(ProcessClosure.java:196)
+	at com.ti.ccstudio.project.core.internal.build.temp.ProcessClosure$ReaderThread.run(ProcessClosure.java:88)
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-27 10:23:52.982
+!MESSAGE DS_ERROR: CORTEX_M4_0: JTAG Communication Error: (Error -261 @ 0x0) Invalid response was received from the XDS110. (Emulation package 7.0.100.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-27 10:23:53.071
+!MESSAGE DS_ERROR: CORTEX_M4_0: Failed to remove the debug state from the target before disconnecting.  There may still be breakpoint op-codes embedded in program memory.  It is recommended that you reset the emulator before you connect and reload your program before you continue debugging
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-27 10:26:53.972
+!MESSAGE DS_ERROR: CORTEX_M4_0: JTAG Communication Error: (Error -261 @ 0x0) Invalid response was received from the XDS110. (Emulation package 7.0.100.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-27 10:26:54.063
+!MESSAGE DS_ERROR: CORTEX_M4_0: Failed to remove the debug state from the target before disconnecting.  There may still be breakpoint op-codes embedded in program memory.  It is recommended that you reset the emulator before you connect and reload your program before you continue debugging
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-27 10:30:50.174
+!MESSAGE DS_ERROR: CS_DAP_0: Error connecting to the target: (Error -260 @ 0x0) An attempt to connect to the XDS110 failed. The cause may be one or more of: no XDS110 is connected, invalid firmware update, invalid XDS110 serial number, or faulty USB cable. The firmware and serial number may be updated using the xdsdfu utility found in the .../ccs_base/common/uscif/xds110 directory of your installation. View the ReadMe.txt file there for instructions. (Emulation package 7.0.100.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-27 10:30:50.377
+!MESSAGE DS_ERROR: Error connecting to the target:
+(Error -260 @ 0x0)
+An attempt to connect to the XDS110 failed.
+The cause may be one or more of: no XDS110 is connected, invalid
+firmware update, invalid XDS110 serial number, or faulty USB
+cable. The firmware and serial number may be updated using the
+xdsdfu utility found in the .../ccs_base/common/uscif/xds110
+directory of your installation. View the ReadMe.txt file there
+for instructions.
+(Emulation package 7.0.100.0)
+
+
+!ENTRY org.eclipse.jface 2 0 2022-10-27 10:33:33.129
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-10-27 10:33:33.129
+!MESSAGE A conflict occurred for ALT+E:
+Binding(ALT+E,
+	ParameterizedCommand(Command(org.eclipse.tm.terminal.command1,Terminal view insert,
+		,
+		Category(org.eclipse.tm.terminal.category1,Terminal view commands,Terminal view commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1315fb3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.tm.terminal.TerminalContext,,,system)
+Binding(ALT+E,
+	ParameterizedCommand(Command(com.ti.ccstudio.debug.ui.command.restoreDebugState,Restore Debug State,
+		Restore debug state for the selected core(s),
+		Category(com.ti.ccstudio.debug.ui.commandCategory,Code Composer Studio Debug Commands,Set of commands for Code Composer Studio debug actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@caeb4b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.debug.ui.debugging,,,system)
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-27 10:43:42.762
+!MESSAGE DS_ERROR: CORTEX_M4_0: Failed System Reset: (Error -2063 @ 0x0) Unable to reset device. Power-cycle the board. If error persists, confirm configuration and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 7.0.100.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-27 10:55:11.460
+!MESSAGE DS_ERROR: CORTEX_M4_0: GEL: Encountered a problem loading file: D:\MicroProccessor\CE2007\Lab5_UARTComms\Debug\Lab5_UARTComms.out Could not open file
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-27 10:59:51.302
+!MESSAGE DS_ERROR: CORTEX_M4_0: GEL: Encountered a problem loading file: D:\MicroProccessor\CE2007\Lab5_UARTComms\Debug\Lab5_UARTComms.out Could not open file
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-27 11:01:21.457
+!MESSAGE DS_ERROR: CORTEX_M4_0: GEL: Encountered a problem loading file: D:\MicroProccessor\CE2007\Lab5_UARTComms\Debug\Lab5_UARTComms.out Could not open file
+
+
+!ENTRY org.eclipse.core.resources 2 566 2022-10-27 11:13:49.675
+!MESSAGE null parent found while collapsing trees
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-27 11:14:31.182
+!MESSAGE DS_ERROR: CORTEX_M4_0: GEL: Encountered a problem loading file: D:\MicroProccessor\CE2007\Lab5_UARTComms\Debug\Lab5_UARTComms.out Could not open file
+
+
+!ENTRY org.eclipse.core.resources 2 566 2022-10-27 11:19:26.931
+!MESSAGE null parent found while collapsing trees
+
+!ENTRY org.eclipse.core.resources 2 566 2022-10-27 11:25:49.338
+!MESSAGE null parent found while collapsing trees
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-27 11:31:42.058
+!MESSAGE DS_ERROR: CORTEX_M4_0: JTAG Communication Error: (Error -261 @ 0x0) Invalid response was received from the XDS110. (Emulation package 7.0.100.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-27 11:31:42.105
+!MESSAGE DS_ERROR: CORTEX_M4_0: Failed to remove the debug state from the target before disconnecting.  There may still be breakpoint op-codes embedded in program memory.  It is recommended that you reset the emulator before you connect and reload your program before you continue debugging
+
+
+!ENTRY org.eclipse.core.resources 2 566 2022-10-27 11:36:28.283
+!MESSAGE null parent found while collapsing trees
+
+!ENTRY org.eclipse.tm.terminal.control 4 0 2022-10-27 11:39:41.823
+!MESSAGE Input/output error in writeArray
+!STACK 0
+java.io.IOException: Input/output error in writeArray
+	at gnu.io.RXTXPort.writeArray(Native Method)
+	at gnu.io.RXTXPort$SerialOutputStream.write(RXTXPort.java:1173)
+	at org.eclipse.tm.internal.terminal.emulator.VT100TerminalControl.sendChar(VT100TerminalControl.java:635)
+	at org.eclipse.tm.internal.terminal.emulator.VT100TerminalControl$TerminalKeyHandler.keyPressed(VT100TerminalControl.java:1184)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:168)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4410)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1103)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1088)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1130)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1126)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1547)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4910)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:364)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4791)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:359)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5102)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2552)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3814)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1121)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:150)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:687)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:604)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:138)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+
+!ENTRY org.eclipse.tm.terminal.control 4 0 2022-10-27 11:39:43.657
+!MESSAGE Input/output error in writeArray
+!STACK 0
+java.io.IOException: Input/output error in writeArray
+	at gnu.io.RXTXPort.writeArray(Native Method)
+	at gnu.io.RXTXPort$SerialOutputStream.write(RXTXPort.java:1173)
+	at org.eclipse.tm.internal.terminal.emulator.VT100TerminalControl.sendChar(VT100TerminalControl.java:635)
+	at org.eclipse.tm.internal.terminal.emulator.VT100TerminalControl$TerminalKeyHandler.keyPressed(VT100TerminalControl.java:1184)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:168)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4410)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1103)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1088)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1130)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1126)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1547)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4910)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:364)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4791)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:359)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5102)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2552)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3814)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1121)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:150)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:687)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:604)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:138)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-27 11:41:09.111
+!MESSAGE DS_ERROR: CS_DAP_0: Error: (Error -261 @ 0x0) Invalid response was received from the XDS110. (Emulation package 7.0.100.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-27 11:41:09.143
+!MESSAGE DS_ERROR: CS_DAP_0: Error: (Error -122 @ 0x0) A bad parameter value was detected within a function. It is likely a problem with `SC_ARGS' in SMG_call(). (Emulation package 7.0.100.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-27 11:41:09.211
+!MESSAGE DS_ERROR: CORTEX_M4_0: JTAG Communication Error: (Error -261 @ 0x0) Invalid response was received from the XDS110. (Emulation package 7.0.100.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-27 11:41:09.271
+!MESSAGE DS_ERROR: CORTEX_M4_0: Failed to remove the debug state from the target before disconnecting.  There may still be breakpoint op-codes embedded in program memory.  It is recommended that you reset the emulator before you connect and reload your program before you continue debugging
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-27 11:42:10.814
+!MESSAGE DS_ERROR: CS_DAP_0: Error: (Error -261 @ 0x0) Invalid response was received from the XDS110. (Emulation package 7.0.100.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-27 11:42:10.899
+!MESSAGE DS_ERROR: CS_DAP_0: Error: (Error -122 @ 0x0) A bad parameter value was detected within a function. It is likely a problem with `SC_ARGS' in SMG_call(). (Emulation package 7.0.100.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-27 11:42:10.974
+!MESSAGE DS_ERROR: CORTEX_M4_0: JTAG Communication Error: (Error -261 @ 0x0) Invalid response was received from the XDS110. (Emulation package 7.0.100.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-27 11:42:11.076
+!MESSAGE DS_ERROR: CORTEX_M4_0: Failed to remove the debug state from the target before disconnecting.  There may still be breakpoint op-codes embedded in program memory.  It is recommended that you reset the emulator before you connect and reload your program before you continue debugging
+
+
+!ENTRY org.eclipse.core.resources 2 566 2022-10-27 11:44:11.252
+!MESSAGE null parent found while collapsing trees
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-27 11:44:26.384
+!MESSAGE DS_ERROR: CORTEX_M4_0: JTAG Communication Error: (Error -261 @ 0x0) Invalid response was received from the XDS110. (Emulation package 7.0.100.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-27 11:44:26.426
+!MESSAGE DS_ERROR: CORTEX_M4_0: Failed to remove the debug state from the target before disconnecting.  There may still be breakpoint op-codes embedded in program memory.  It is recommended that you reset the emulator before you connect and reload your program before you continue debugging
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-27 11:46:09.028
+!MESSAGE DS_ERROR: CORTEX_M4_0: JTAG Communication Error: (Error -261 @ 0x0) Invalid response was received from the XDS110. (Emulation package 7.0.100.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-27 11:46:09.112
+!MESSAGE DS_ERROR: CORTEX_M4_0: Failed to remove the debug state from the target before disconnecting.  There may still be breakpoint op-codes embedded in program memory.  It is recommended that you reset the emulator before you connect and reload your program before you continue debugging
+
+
+!ENTRY org.eclipse.core.resources 2 566 2022-10-27 11:50:37.338
+!MESSAGE null parent found while collapsing trees
+
+!ENTRY org.eclipse.ui.ide 4 4 2022-10-27 11:58:40.044
+!MESSAGE Problems saving workspace
+
+!ENTRY org.eclipse.ui.ide 4 1 2022-10-27 11:58:40.060
+!MESSAGE Problems occurred while trying to save the state of the workbench.
+!SUBENTRY 1 org.eclipse.core.resources 4 568 2022-10-27 11:58:40.060
+!MESSAGE Could not write workspace metadata 'D:/MicroProccessor/CE2007/.metadata/.plugins/org.eclipse.core.resources/.root/75.tree'.
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.core.internal.watson.ElementTreeWriter.sortTrees(ElementTreeWriter.java:125)
+	at org.eclipse.core.internal.watson.ElementTreeWriter.writeDeltaChain(ElementTreeWriter.java:195)
+	at org.eclipse.core.internal.resources.SaveManager.writeTree(SaveManager.java:2011)
+	at org.eclipse.core.internal.resources.SaveManager.saveTree(SaveManager.java:1411)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1190)
+	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2283)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$4.run(IDEWorkbenchAdvisor.java:456)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+
+!ENTRY org.eclipse.core.resources 2 10035 2022-10-27 11:58:41.075
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2022-10-27 13:33:15.414 -----------------------------------------------
+eclipse.buildId=4.6.0.I20160606-1100
+java.version=1.8.0_112
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_SG
+Framework arguments:  -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ti.ccstudio.branding.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2022-10-27 13:34:10.016
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.ti.common.core 4 0 2022-10-27 13:34:10.141
+!MESSAGE path=ccs_base/DebugServer
+
+!ENTRY com.ti.common.core 4 0 2022-10-27 13:34:10.156
+!MESSAGE debugServerDir=C:/ti/ccsv7/ccs_base/DebugServer
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2022-10-27 13:34:36.030
+!MESSAGE No repository found at file:/K:/softwares/CCS7.4.0.00015_win32/CCS7.4.0.00015_win32/baserepo/browserRepo.
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2022-10-27 13:34:40.968
+!MESSAGE Connection to http://support.spectrumdigital.com/ccs51/Updates/p2.index failed on support.spectrumdigital.com. Retry attempt 0 started
+!STACK 0
+java.net.UnknownHostException: support.spectrumdigital.com
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:928)
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1323)
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1276)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:44)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:259)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:159)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:131)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:611)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:446)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1084)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1075)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1071)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1006 2022-10-27 13:34:41.187
+!MESSAGE Unknown Host: http://support.spectrumdigital.com/ccs51/Updates/content.xml
+!STACK 0
+java.net.UnknownHostException: support.spectrumdigital.com
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:44)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:259)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:159)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:304)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:611)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:446)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.ti.ccstudio.errorparser 4 0 2022-10-27 13:35:30.888
+!MESSAGE An internal error was logged by 'com.ti.ccstudio.errorparser'.
+!STACK 0
+org.jsoup.HttpStatusException: HTTP error fetching URL. Status=410, URL=https://processors.wiki.ti.com/index.php/Compiler/diagnostic_messages/
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:590)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:587)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:540)
+	at org.jsoup.helper.HttpConnection.execute(HttpConnection.java:227)
+	at org.jsoup.helper.HttpConnection.get(HttpConnection.java:216)
+	at com.ti.ccstudio.errorparser.parsers.PatternProvider$PatternData.fillup(PatternProvider.java:261)
+	at com.ti.ccstudio.errorparser.parsers.PatternProvider$PatternData.findMatch(PatternProvider.java:145)
+	at com.ti.ccstudio.errorparser.parsers.PatternProvider.getEmdUrl(PatternProvider.java:465)
+	at com.ti.ccstudio.errorparser.parsers.ErrorPattern.recordError(ErrorPattern.java:77)
+	at com.ti.ccstudio.errorparser.parsers.CoffErrorParser.processPendingMesg(CoffErrorParser.java:259)
+	at com.ti.ccstudio.errorparser.parsers.CoffErrorParser.doProcessLine(CoffErrorParser.java:103)
+	at com.ti.ccstudio.errorparser.parsers.BaseErrorParser.processLine(BaseErrorParser.java:307)
+	at org.eclipse.cdt.core.errorparsers.ErrorParserNamedWrapper.processLine(ErrorParserNamedWrapper.java:48)
+	at com.ti.ccstudio.project.core.internal.build.ProjectAdviceManager$AdviceContentHandler.endElement(ProjectAdviceManager.java:124)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.endElement(AbstractSAXParser.java:609)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1782)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2967)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:841)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:770)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(SAXParserImpl.java:327)
+	at javax.xml.parsers.SAXParser.parse(SAXParser.java:328)
+	at com.ti.ccstudio.project.core.internal.build.ProjectAdviceManager.processAdvice(ProjectAdviceManager.java:489)
+	at com.ti.ccstudio.project.core.internal.build.ProjectAdviceManager.handleAdviceChangingEvent(ProjectAdviceManager.java:450)
+	at com.ti.ccstudio.project.core.internal.build.ProjectAdviceManager.handleAdviceChangingEvent(ProjectAdviceManager.java:438)
+	at com.ti.ccstudio.project.core.internal.build.ProjectAdviceManager.onProjectBuild_Post(ProjectAdviceManager.java:431)
+	at com.ti.common.project.core.internal.events.ProjectStateMonitor$ResourceChangeListener$8.visit(ProjectStateMonitor.java:416)
+	at com.ti.common.project.core.internal.events.ProjectStateMonitor.notifyListeners(ProjectStateMonitor.java:848)
+	at com.ti.common.project.core.internal.events.ProjectStateMonitor.access$2(ProjectStateMonitor.java:837)
+	at com.ti.common.project.core.internal.events.ProjectStateMonitor$ResourceChangeListener.resourceChanged(ProjectStateMonitor.java:414)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastBuildEvent(Workspace.java:360)
+	at org.eclipse.core.internal.resources.Project$1.run(Project.java:560)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Project.internalBuild(Project.java:529)
+	at org.eclipse.core.internal.resources.Project.build(Project.java:112)
+	at org.eclipse.debug.core.model.LaunchConfigurationDelegate$1.run(LaunchConfigurationDelegate.java:430)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2262)
+	at org.eclipse.debug.core.model.LaunchConfigurationDelegate.buildProjects(LaunchConfigurationDelegate.java:437)
+	at org.eclipse.debug.core.model.LaunchConfigurationDelegate.buildForLaunch(LaunchConfigurationDelegate.java:130)
+	at com.ti.ccstudio.debug.launch.CCSLaunchDelegate.buildForLaunch(CCSLaunchDelegate.java:502)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.jface 2 0 2022-10-27 13:59:05.847
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-10-27 13:59:05.847
+!MESSAGE A conflict occurred for ALT+E:
+Binding(ALT+E,
+	ParameterizedCommand(Command(org.eclipse.tm.terminal.command1,Terminal view insert,
+		,
+		Category(org.eclipse.tm.terminal.category1,Terminal view commands,Terminal view commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1590338,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.tm.terminal.TerminalContext,,,system)
+Binding(ALT+E,
+	ParameterizedCommand(Command(com.ti.ccstudio.debug.ui.command.restoreDebugState,Restore Debug State,
+		Restore debug state for the selected core(s),
+		Category(com.ti.ccstudio.debug.ui.commandCategory,Code Composer Studio Debug Commands,Set of commands for Code Composer Studio debug actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1c9468,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.debug.ui.debugging,,,system)
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-27 14:00:45.280
+!MESSAGE DS_ERROR: CORTEX_M4_0: JTAG Communication Error: (Error -261 @ 0x0) Invalid response was received from the XDS110. (Emulation package 7.0.100.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-27 14:00:45.322
+!MESSAGE DS_ERROR: CORTEX_M4_0: Failed to remove the debug state from the target before disconnecting.  There may still be breakpoint op-codes embedded in program memory.  It is recommended that you reset the emulator before you connect and reload your program before you continue debugging
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-27 14:01:56.534
+!MESSAGE DS_ERROR: CS_DAP_0: Error connecting to the target: (Error -260 @ 0x0) An attempt to connect to the XDS110 failed. The cause may be one or more of: no XDS110 is connected, invalid firmware update, invalid XDS110 serial number, or faulty USB cable. The firmware and serial number may be updated using the xdsdfu utility found in the .../ccs_base/common/uscif/xds110 directory of your installation. View the ReadMe.txt file there for instructions. (Emulation package 7.0.100.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-27 14:01:56.659
+!MESSAGE DS_ERROR: Error connecting to the target:
+(Error -260 @ 0x0)
+An attempt to connect to the XDS110 failed.
+The cause may be one or more of: no XDS110 is connected, invalid
+firmware update, invalid XDS110 serial number, or faulty USB
+cable. The firmware and serial number may be updated using the
+xdsdfu utility found in the .../ccs_base/common/uscif/xds110
+directory of your installation. View the ReadMe.txt file there
+for instructions.
+(Emulation package 7.0.100.0)
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-27 14:02:23.486
+!MESSAGE DS_ERROR: CORTEX_M4_0: JTAG Communication Error: (Error -261 @ 0x0) Invalid response was received from the XDS110. (Emulation package 7.0.100.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-27 14:02:23.565
+!MESSAGE DS_ERROR: CORTEX_M4_0: Failed to remove the debug state from the target before disconnecting.  There may still be breakpoint op-codes embedded in program memory.  It is recommended that you reset the emulator before you connect and reload your program before you continue debugging
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-27 14:04:46.147
+!MESSAGE DS_ERROR: CORTEX_M4_0: JTAG Communication Error: (Error -261 @ 0x0) Invalid response was received from the XDS110. (Emulation package 7.0.100.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-27 14:04:46.188
+!MESSAGE DS_ERROR: CORTEX_M4_0: Failed to remove the debug state from the target before disconnecting.  There may still be breakpoint op-codes embedded in program memory.  It is recommended that you reset the emulator before you connect and reload your program before you continue debugging
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-27 14:07:27.512
+!MESSAGE DS_ERROR: CORTEX_M4_0: JTAG Communication Error: (Error -261 @ 0x0) Invalid response was received from the XDS110. (Emulation package 7.0.100.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-27 14:07:27.627
+!MESSAGE DS_ERROR: CORTEX_M4_0: Failed to remove the debug state from the target before disconnecting.  There may still be breakpoint op-codes embedded in program memory.  It is recommended that you reset the emulator before you connect and reload your program before you continue debugging
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-27 14:09:15.697
+!MESSAGE DS_ERROR: CORTEX_M4_0: JTAG Communication Error: (Error -261 @ 0x0) Invalid response was received from the XDS110. (Emulation package 7.0.100.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-27 14:09:15.746
+!MESSAGE DS_ERROR: CORTEX_M4_0: Failed to remove the debug state from the target before disconnecting.  There may still be breakpoint op-codes embedded in program memory.  It is recommended that you reset the emulator before you connect and reload your program before you continue debugging
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-27 14:11:49.217
+!MESSAGE DS_ERROR: CS_DAP_0: Error connecting to the target: (Error -261 @ 0x0) Invalid response was received from the XDS110. (Emulation package 7.0.100.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-27 14:11:49.411
+!MESSAGE DS_ERROR: Error connecting to the target:
+(Error -261 @ 0x0)
+Invalid response was received from the XDS110.
+(Emulation package 7.0.100.0)
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-27 14:18:55.864
+!MESSAGE DS_ERROR: CS_DAP_0: Error: (Error -261 @ 0x0) Invalid response was received from the XDS110. (Emulation package 7.0.100.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-27 14:18:55.903
+!MESSAGE DS_ERROR: CS_DAP_0: Error: (Error -122 @ 0x0) A bad parameter value was detected within a function. It is likely a problem with `SC_ARGS' in SMG_call(). (Emulation package 7.0.100.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-27 14:18:56.073
+!MESSAGE DS_ERROR: CS_DAP_0: Unable to determine target status after 20 attempts
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-27 14:18:56.093
+!MESSAGE DS_ERROR: CS_DAP_0: Failed to remove the debug state from the target before disconnecting.  There may still be breakpoint op-codes embedded in program memory.  It is recommended that you reset the emulator before you connect and reload your program before you continue debugging
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-27 14:18:56.309
+!MESSAGE DS_ERROR: CORTEX_M4_0: JTAG Communication Error: (Error -261 @ 0x0) Invalid response was received from the XDS110. (Emulation package 7.0.100.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-27 14:18:56.350
+!MESSAGE DS_ERROR: CORTEX_M4_0: Failed to remove the debug state from the target before disconnecting.  There may still be breakpoint op-codes embedded in program memory.  It is recommended that you reset the emulator before you connect and reload your program before you continue debugging
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-27 14:19:31.199
+!MESSAGE DS_ERROR: CORTEX_M4_0: JTAG Communication Error: (Error -261 @ 0x0) Invalid response was received from the XDS110. (Emulation package 7.0.100.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-27 14:19:31.244
+!MESSAGE DS_ERROR: CORTEX_M4_0: Failed to remove the debug state from the target before disconnecting.  There may still be breakpoint op-codes embedded in program memory.  It is recommended that you reset the emulator before you connect and reload your program before you continue debugging
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-27 14:20:38.668
+!MESSAGE DS_ERROR: CS_DAP_0: Error: (Error -261 @ 0x0) Invalid response was received from the XDS110. (Emulation package 7.0.100.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-27 14:20:38.697
+!MESSAGE DS_ERROR: CS_DAP_0: Error: (Error -122 @ 0x0) A bad parameter value was detected within a function. It is likely a problem with `SC_ARGS' in SMG_call(). (Emulation package 7.0.100.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-27 14:20:38.729
+!MESSAGE DS_ERROR: CORTEX_M4_0: JTAG Communication Error: (Error -261 @ 0x0) Invalid response was received from the XDS110. (Emulation package 7.0.100.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-10-27 14:20:38.770
+!MESSAGE DS_ERROR: CORTEX_M4_0: Failed to remove the debug state from the target before disconnecting.  There may still be breakpoint op-codes embedded in program memory.  It is recommended that you reset the emulator before you connect and reload your program before you continue debugging
+
+!SESSION 2022-10-27 14:28:23.612 -----------------------------------------------
+eclipse.buildId=4.6.0.I20160606-1100
+java.version=1.8.0_112
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_SG
+Framework arguments:  -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ti.ccstudio.branding.product
+
+!ENTRY com.ti.common.core 4 0 2022-10-27 14:28:32.322
+!MESSAGE path=ccs_base/DebugServer
+
+!ENTRY com.ti.common.core 4 0 2022-10-27 14:28:32.338
+!MESSAGE debugServerDir=C:/ti/ccsv7/ccs_base/DebugServer
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2022-10-27 14:29:10.757
+!MESSAGE No repository found at file:/K:/softwares/CCS7.4.0.00015_win32/CCS7.4.0.00015_win32/baserepo/browserRepo.
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2022-10-27 14:29:14.527
+!MESSAGE Connection to http://support.spectrumdigital.com/ccs51/Updates/p2.index failed on support.spectrumdigital.com. Retry attempt 0 started
+!STACK 0
+java.net.UnknownHostException: support.spectrumdigital.com
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:928)
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1323)
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1276)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:44)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:259)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:159)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:131)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:611)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:446)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1084)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1075)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1071)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1006 2022-10-27 14:29:14.755
+!MESSAGE Unknown Host: http://support.spectrumdigital.com/ccs51/Updates/content.xml
+!STACK 0
+java.net.UnknownHostException: support.spectrumdigital.com
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:44)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:259)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:159)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:304)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:611)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:446)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.p2.updatechecker 4 0 2022-10-27 14:29:32.646
+!MESSAGE Exception in update check thread
+!STACK 0
+org.eclipse.core.runtime.OperationCanceledException
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:125)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:156)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadIndexFile(AbstractRepositoryManager.java:735)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:657)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:166)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:106)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:122)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:668)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:151)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:129)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:73)
